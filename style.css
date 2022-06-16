@@ -10,9 +10,26 @@ body{
   margin: 0;
 }
 
+main{
+  padding: 36px;
+}
+
 .nav{
   display: flex;
   align-items: center;
   height: 65px;
   background: linear-gradient(90deg, #672200 1.8%, #A626D3 100%);
+  color: white;
+  padding: 20px;
+}
+
+
+.form{
+  display: grid;
+  grid-template: 40px 40px / 1fr 1fr;
+  gap: 17px;
+}
+
+.form-button{
+  grid-column: 1 /-1;
 }
