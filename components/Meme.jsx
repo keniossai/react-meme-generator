@@ -16,7 +16,7 @@ export default function Meme(){
         <input className="form-input" type="text" placeholder="Bottom text" />
           <button className='form-button' onClick={getMemeImage}>Get a new meme image</button>
       </div>
-      <img src={memeImage} alt="" style={{maxWidth: "100%"}} />
+      <img src={memeImage} alt="" style={{maxWidth: "100%", marginTop: "10px"}} />
     </main>
   )
 }
